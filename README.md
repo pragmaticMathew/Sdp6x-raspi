@@ -36,15 +36,15 @@ outputfilename is optional, if omitted, stdout will be used
 
 -h print help
 
--delay:<x>                                      Delays sampling by x ms - note: no spaces in option!
+-delay:\<x\>                                      Delays sampling by x ms - note: no spaces in option!
 
 -daemon                                         Start program as daemon. Note that you need to have root rights for this. Terminate it by the following commands: ps aux | grep %s and kill -15 <pid>
 
--sample-resolution:<x>                          Specifies sampling resolution in bits. Sample rate is influcenced by resolution. Possible values are from 9 to 16. Note: no spaces in option!
+-sample-resolution:\<x\>                          Specifies sampling resolution in bits. Sample rate is influcenced by resolution. Possible values are from 9 to 16. Note: no spaces in option!
 
--changeI2CAddress:<currentAddr>:<newAddress>    Use this parameter to change the I2C Address from a specific sensor. Make sure that only one sensor is attached to the bus with the same currentAddress. Note this call may destroy a sensor by overwriting calibration data. Do not use on incompatible device, no warranty / liability.
+-changeI2CAddress:\<currentAddr\>:\<newAddress\>    Use this parameter to change the I2C Address from a specific sensor. Make sure that only one sensor is attached to the bus with the same currentAddress. Note this call may destroy a sensor by overwriting calibration data. Do not use on incompatible device, no warranty / liability.
 
--I2CAdr:<d1>:<d2>                               Defines the device address of the sensors. Use hex values, e.g. 0x40:0x41. At maximum two sensors are supported. If you have only one sensor write e.g. 0x40:0x00. If the parameter is omitted 0x40 will be used
+-I2CAdr:\<d1\>:\<d2\>                               Defines the device address of the sensors. Use hex values, e.g. 0x40:0x41. At maximum two sensors are supported. If you have only one sensor write e.g. 0x40:0x00. If the parameter is omitted 0x40 will be used
 
 # example
   
