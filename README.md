@@ -7,7 +7,7 @@ Reference to the sensor: https://sensirion.com/de/produkte/katalog/SDP610-25Pa
 Please note that the sensor is not recommended for new designs, however when I started this project i found it very well suited and I'm still impressed by the accuracy and performance of this sensor.
 
 # wiring
-In any case consult the data sheet and other available information. It's possible to connect the sensor with it's four wires to the raspberry PI's I2C bus.
+In any case consult the data sheet and other available information. It's possible to connect the sensor with it's four wires to the raspberry PI's I2C bus + 3.3V/GND  Pins
 Notes:
 - Do not use the internal I2C for the shields
 - Raspberry PI has already Pull-up resistors. Do not add extra resistiors unless you know what you are doing.
