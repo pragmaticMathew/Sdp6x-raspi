@@ -28,7 +28,7 @@ For changing I2C Adress of sensor you need to compile the code with enabled comm
 If you want to start the application as daemon it is recommended to use sudo to be able to write the log file.
 
 # how to use
-Usage:Sdp6x options] [outputfilename]
+Usage:Sdp6x [options] [outputfilename]
 
 outputfilename is optional, if omitted, stdout will be used
 
@@ -53,9 +53,9 @@ outputfilename is optional, if omitted, stdout will be used
 
 # open issues, upcoming improvements
 
-TODO: Command line parser supports until up to 2 sensors yet
+TODO: Command line parser supports currently only up to 2 sensors
 
-TODO: First 1-2 measurements always fail 
+TODO: Deine workaround - first 1-2 measurements always fail 
 
 IMPROVEMENT: Integrate proper logging framework, add posibility to log into logfile
 
